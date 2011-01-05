@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Flexible Box Layout</title>
+      <link href="stylesheet.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div>
+          <h1>The Flexible Box Module</h1>
+          <p>Formatting a page made easy through use of the flexible box module.  Designed expressly with the intent of laying out webpages, flexible boxes are great for dynamic content.</p>
+        </div>
+      </header>
+      <article>
+        <section id="section-1">
+          <h2>The flexibility</h2>
+          <p>Despite the section elements having the same specified width, this section is quite a bit larger.  In the section to the left, box-flex is set to 0, thus the box will keep its specified size.  When box-flex is set to 1, as in the case of this section, the element will be resized to occupy the remaining space.  Also, because of the nature of the flexible box, despite there being different amounts of content in the two sections, the columns are automatically kept to the same vertical height without any additional specification.</p>
+        </section>
+        <section id="section-2">
+          <h2>Ordering of sections</h2>
+          <p>Despite the fact that this is the second section in order by the html, it is displayed first here through specification in the stylesheet.  The components of the article (the sections) can be arranged in any order one wishes.</p>
+        </section>
+      </article>
+      <footer>
+        <p>Text roughly paraphrased from pwd ~mdms</p>
+      </footer>
+    </div>
+  </body>
+
+</html>
